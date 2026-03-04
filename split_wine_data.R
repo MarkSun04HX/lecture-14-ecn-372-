@@ -16,7 +16,7 @@ cat("Random seed used:", seed_value, "\n")
 # Read combined dataset
 data <- read.csv("data/processed/output.csv")
 
-# Number of observations
+# Number of observations 
 n <- nrow(data)
 
 # Create random 80% index
